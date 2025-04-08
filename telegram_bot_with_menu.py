@@ -1,4 +1,4 @@
-from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
+﻿from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import (
     ApplicationBuilder,
     CommandHandler,
@@ -11,7 +11,7 @@ from telegram.ext import (
 from collections import defaultdict
 from datetime import datetime
 
-TOKEN = 'ВАШ_ТОКЕН_ЗДЕСЬ'
+TOKEN = '7807968065:AAEK3GHMqONr2IGZjNI1Ukv7-0Yq_ZmHXDs'
 
 # Состояния
 WAIT_NUMBER, WAIT_TARA, WAIT_BRUTTO_SELECT, WAIT_BRUTTO_INPUT = range(4)
